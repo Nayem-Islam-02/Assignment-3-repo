@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- daisy ui -->
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -23,10 +26,11 @@
     <header>
 
         <!-- navbar start here -->
-         <div class="w-10/12 mx-auto ">
+         <div class="w-10/12 mx-auto  ">
 
-            <div class="navbar w-10/12 mx-auto ">
-                <div class="navbar-start">
+            <div class="navbar w-11/12 xl:w-11/12 lg:w-full mx-auto    lg:space-x-24 
+            ">
+                <div class="navbar-start  lg:w-fit">
                   <!-- <div class="dropdown"> -->
                     <!-- <div tabindex="0" role="button" class="btn btn-ghost lg:hidden"> -->
                         <!-- <svg -->
@@ -61,14 +65,14 @@
                     <!-- </ul> -->
                   <!-- </div> -->
 
-                  
-                  <i class="ri-arrow-right-up-line bg-yellow-200 text-black  rounded-2xl "></i>
-                  <a class="btn btn-ghost text-xl">Rinterio</a>
+                  <a class="btn btn-ghost lg:-ml-5 xl:ml-0 ">
+                  <i class="ri-arrow-right-up-line bg-yellow-200 text-black  rounded-2xl p-2 "></i>
+                  <span class="font-bold text-xl">Rinterio</span></a>
                 </div>
 
-            <div class="flex">
-                <div class="navbar-center hidden lg:inline-block  ">
-                  <ul class="menu menu-horizontal px-1 ">
+            <div class="flex  ">
+                <div class="navbar-center   lg:-ml-24 hidden lg:inline-block  ">
+                  <ul class="menu menu-horizontal px-1 xl:ml-60 ">
                     <li class="hover:text-red-500"><a>Home</a></li>
                     <li>
                       <a >Service</a>
@@ -83,9 +87,13 @@
                 <div class="navbar-end hidden  lg:inline-block w-fit ml-24 ">
 
                    
+                  
+                  <div class="flex xl:gap-3 xl:ml-14 lg:gap-8 ">
+                    <i class="fa-solid fa-magnifying-glass bg-white border rounded-3xl p-4 lg:-ml-3 xl:ml-0  "></i>
 
-                  <div class="flex  ">
-                  <a class="btn bg-yellow-200 rounded-3xl lg:-ml-14 xl:ml-0 px-5 py-0 font-bold">Book Consult
+                    <i class="fa-solid fa-cart-shopping  bg-white border rounded-3xl p-4 lg:-ml-5 xl:ml-0"></i>
+                   
+                  <a class="btn bg-yellow-200 rounded-3xl lg:-ml-5 xl:ml-0 px-5 py-0 font-bold">Book Consult
                     <i class="ri-arrow-right-up-line bg-black text-white  rounded-2xl"></i>
                   </a> </div>
                 </div> 
@@ -257,7 +265,7 @@
 
         <!-- main second start -->
 
-        <div class="mt-6  w-10/12 mx-auto">
+        <div class="mt-6  w-10/12 mx-auto  ">
             <div class="text-center   ">
                 
                 <button class="btn bg-white rounded-2xl"> <i class="ri-arrow-right-line"></i>How We Works</button>
@@ -269,20 +277,20 @@
             <p class="text-gray-500 text-center">A barn home features a style in existence for hundreds of <br> Many people used barn house plans for necessity, using simple and sturdy building materials. </p>
 
 
-            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-3 ">
+            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-3  lg:gap-2   ">
 
-                <div class="bg-gray-400 w-64 h-56 rounded-lg p-5 mx-auto">
+                <div class="bg-gray-400 w-64 h-56 lg:w-52 xl:w-64 rounded-lg p-5 mx-auto  ">
 
                     <img src="./assets/concept.png" alt="">
 
                     <h4 class="font-bold text-xl">Concept</h4>
 
-                    <p>These homes tend to come in simple shapes and might have stone bases, cupolas, rustic wood-plank siding, and gable or gambrel roofs.</p>
+                    <p>These homes tend to come in simple shapes and might have stone bases, cupolas, rustic wood-plank siding.</p>
                 </div>
 
                 <!--  -->
 
-                <div class="bg-yellow-200 w-64 h-56 rounded-lg p-5 mx-auto mt-3 lg:mt-0 ">
+                <div class="bg-yellow-200 w-64 h-56 lg:w-52 xl:w-64 rounded-lg p-5 mx-auto mt-3 lg:mt-0 ">
 
                     <img src="./assets/flow-chart.png" alt=""> <br>
 
@@ -294,7 +302,7 @@
 
                 <!--  -->
                  
-                <div class="bg-teal-400 w-64 h-56 rounded-lg p-5 mx-auto mt-3 lg:mt-0">
+                <div class="bg-teal-400 w-64 h-56 lg:w-52 xl:w-64 rounded-lg p-5 mx-auto mt-3 lg:mt-0">
 
                     <img src="./assets/vision.png" alt=""> <br>
 
@@ -306,7 +314,7 @@
 
                 <!--  -->
 
-                <div class="bg-sky-500 w-64 h-56 rounded-lg p-5 mx-auto mt-3 lg:mt-0">
+                <div class="bg-sky-500 w-64 h-56 lg:w-52 xl:w-64 rounded-lg p-5 mx-auto mt-3 lg:mt-0">
 
                     <img src="./assets/budget-planning.png" alt=""> <br>
 
